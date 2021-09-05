@@ -31,4 +31,5 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         window.location.assign("/route")
       }
     });
+    
 }
