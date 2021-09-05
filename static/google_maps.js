@@ -26,10 +26,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     }, function(response, status) {
       if (status === 'OK') {
         directionsDisplay.setDirections(response);
-
-
       } else {
-
         alert('Directions request failed due to ' + status);
         window.location.assign("/route")
       }
